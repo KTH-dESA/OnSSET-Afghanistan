@@ -4,32 +4,35 @@ Python implementation of the Open Source Spatial Electrification Tool (OnSSET) f
 
 ### Content
 
-A new version of the OnSSET electrification model that takes into account the effect of conflict has been added separately in January 2019. Code and files related to this version can be identified by the tag "Conflict" in their name. The model works otherwise in similar manner.
-
-This repository contains a jupyter notebook which allow for a quick, screening electrification analysis using a simplified version of OnSSET. Sample files of Malawi are available for testing. Note, that both code and input files are only indicative and are only used here to showcase OnSSET's functionality.
+This repository contains the source code for the OnSSET model customized for the case study of Afghanistan. Note that a new version of the model that takes into account the effect of conflict has been added separately in January 2019. Code and files related to this version can be identified by the tag "Conflict" in their in the conflict branch. In both cases the model works in similar manner as described below.
 
 ### How-to-use Instructions 
 
 1. Clone repository in a directory of your preference
-2. Start Jupyter notebook in the directory 
-3. Extract the zipped Malawi csv file in the directory
-4. Install dependencies
-5. Run blocks sequentially 
+2. Open onsset.py and runner.py in the IDE of your preference (Pycharm is suggested)
+3. Install dependencies
+4. Make sure that specs.csv and Afghanistan.csv files are in the same directory. Both files shall follow the format and naming convention as shown in the sample files in this repository. Parameter values can be changed accordingly
+4. Run onsset.py and make sure there is no error
+5. Run runner.py
+  a. Select to calibrate the Afghanistan.csv as per instructions
+  b. After calibration (taking place only once) start running scenarios as per instructions
+5. After a scenario is run two output files will appear in the directory; one containing full results and another providing a summary.
+6. Import the full result scv file into a GIS environment (QGIS, ArcMap) to vizualize the results.
 
 ### Cautions
 
-The first file (specs) contains most of the inputs parameters of the analysis (such as total population, urban population ratio, diesel price etc.) is by convention "specs" and you can find it usually within the db file serving as directory.
+The first input file (specs.csv) contains most of the inputs parameters of the analysis such as total population, urban population ratio, diesel price etc.
 
-The second file contains all the GIS information (21 columns) for the settlements to be included in the analysis. This csv file has by convention the same name with the country it represents (e.g. in this case "Afghanistan.csv"). When prepared, this file shall be placed within the bd file as well.
+The second input file (Afghanistan.csv) contains all the GIS information (21 columns) for the settlements to be included in the analysis. This csv file has by convention the same name with the country it represents (e.g. in this case "Afghanistan.csv").
 
-KTH dESA has prepared two versions of the Afghanistan.csv file able to run the electrification analysis with 1 and 10 km spatial resolution respectively. 
-
-
+The sample files in this repository provide low granularity and shall only be used as test beds. KTH dESA has prepared a proper version of the Afghanistan.csv file able to run the electrification analysis with 1 km spatial resolution. Access information can be found below.
 
 ### Supplementary material
 
 - The GIS layers that have been used in this analysis are available at [Energydata.info](https://energydata.info/).
+- Input file in higher granularity (1 km spatial resolution) can be downloaded at [Energydata.info](https://energydata.info/).
+- More information regarding running OnSSET is available at [onsset.org](http://www.onsset.org/).
+- A GIS based least cost electrification analysis for Afghanistan is available [here](https://energypedia.info/wiki/File:A_GIS_approach_to_electrification_planning_in_Afghanistan.pdf).
+- An academic publication supporting this work is available [here](tbu).
 
-- Input files in higher granularity (1 and 10 km spatial resolution) can be downloaded at [Energydata.info](https://energydata.info/).
-
-For any additional information please contact the KTH team [here.](http://www.onsset.org/contact--forum.html)
+- For any additional information please contact the KTH team [here.](http://www.onsset.org/contact--forum.html)
