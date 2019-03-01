@@ -36,5 +36,3 @@ The sample files in this repository provide low granularity and shall only be us
 - An academic publication supporting this work is available [here](tbu).
 
 - For any additional information please contact the KTH team [here.](http://www.onsset.org/contact--forum.html)
-
-- new text
