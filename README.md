@@ -33,6 +33,6 @@ The sample files in this repository provide low granularity and shall only be us
 - Input file in higher granularity (1 km spatial resolution) can be downloaded from [here](https://drive.google.com/drive/folders/1ejRtY2CHmlXWYkV4NBjsgkC8BXJxFiSz?usp=sharing).
 - More information regarding running OnSSET is available at [OnSSET manual](https://onsset-manual.readthedocs.io/en/latest/).
 - A GIS based least cost electrification analysis for Afghanistan is available [here](https://energypedia.info/wiki/File:A_GIS_approach_to_electrification_planning_in_Afghanistan.pdf).
-- An academic publication supporting this work is available [here](tbu).
+- An academic publication supporting this work is available [here](https://www.mdpi.com/2071-1050/12/3/777).
 
 - For any additional information please contact the KTH team [here.](http://www.onsset.org/contact--forum.html)
