@@ -21,7 +21,7 @@ This repository contains the source code for the OnSSET model customized for the
 
 ### Cautions
 
-The first input file (specs.csv) contains most of the inputs parameters of the analysis such as total population, urban population ratio, diesel price etc.
+The first input file (specs.xlsx) contains most of the inputs parameters of the analysis such as total population, urban population ratio, diesel price etc.
 
 The second input file (Afghanistan.csv) contains all the GIS information (21 columns) for the settlements to be included in the analysis. This csv file has by convention the same name with the country it represents (e.g. in this case "Afghanistan.csv").
 
