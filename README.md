@@ -11,7 +11,7 @@ This repository contains the source code for the OnSSET model customized for the
 1. Clone repository in a directory of your preference
 2. Open onsset.py and runner.py in the IDE of your preference (Pycharm is suggested)
 3. Install dependencies
-4. Make sure that specs.csv and Afghanistan.csv files are in the same directory. Both files shall follow the format and naming convention as shown in the sample files in this repository. Parameter values can be changed accordingly
+4. Make sure that specs.xlsx and Afghanistan.csv files are in the same directory. Both files shall follow the format and naming convention as shown in the sample files in this repository. Parameter values can be changed accordingly
 4. Run onsset.py and make sure there is no error
 5. Run runner.py
   a. Select to calibrate the Afghanistan.csv as per instructions
